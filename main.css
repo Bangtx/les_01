@@ -1,0 +1,37 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+#avata {
+    width: 20px;
+    border-radius: 16px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+    height: 20px;
+    width: 300px;
+}
+.search-btn {
+    border: 1px solid black;
+    border-radius: 0 11px 11px 0;
+    height: 22px;
+}
+.sidebar {
+    width: 200px;
+    background-color: aquamarine;
+    height: calc(100vh - 48px) ;
+}
+.sidebar__item {
+    display: flex;
+    padding: 5px;
+}
+.item__text {
+    margin-left: 5px;
+}
